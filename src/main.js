@@ -51,7 +51,7 @@ const createWindow = () => {
     },
   });
 
-  win.loadFile('notepad.html');
+  win.loadFile('src/notepad.html');
 
   const menu = Menu.buildFromTemplate([
     {
